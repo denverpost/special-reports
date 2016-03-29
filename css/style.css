@@ -541,14 +541,14 @@ div.title h2 {
     z-index:-1;
 }
 div.title h1 {
-    margin:1em 0;
+    margin:2em 0 0;
     text-align: center;
     font-family:'PT Sans Narrow', Helvetica, Arial, sans-serif !important;
     font-size:4em;
     font-weight:600;
     line-height:1;
     text-transform:uppercase;
-    color:rgba(34,34,34,1);
+    color:rgba(34,34,34,0.75);
     display:block;
     z-index:-1;
 }
@@ -639,7 +639,7 @@ h3.subheading {
     font-weight:700;
     display:block;
     text-align:center;
-    margin:3.5em auto 1.5em;
+    margin:2em auto 1.5em;
     padding:.5em 0;
     width:70%;
     border-bottom:1px solid rgba(0,0,0,.3);
@@ -657,6 +657,18 @@ h3.subheadsans {
     border-bottom:1px solid rgba(0,0,0,.3);
     text-transform:uppercase;
 }
+h3.datesans {
+    font-family:'PT Sans', Helvetica, Arial, sans-serif !important;
+    font-size:1.05em;
+    font-weight:700;
+    display:block;
+    text-align:center;
+    margin:0 auto .5em;
+    padding:.5em 0;
+    width:70%;
+    color:rgba(34,34,34,0.7);
+    border-bottom:1px solid rgba(0,0,0,.3);
+}
 h4.subheadsansdeck {
     font-family:'PT Sans', Helvetica, Arial, sans-serif !important;
     font-size:1.5em;
@@ -668,9 +680,22 @@ h4.subheadsansdeck {
     width:100%;
     color:rgba(34,34,34,1);
 }
+h4.subheadsanslist {
+    font-family:'PT Sans', Helvetica, Arial, sans-serif !important;
+    font-size:1.3em;
+    font-weight:700;
+    display:block;
+    text-align:center;
+    margin:0 auto .5em;
+    padding:.5em 0;
+    width:100%;
+    color:rgba(34,34,34,.9);
+}
+h4.subheadsanslist a,
 h4.subheadsansdeck a {
     color:rgba(34,34,34,1);
 }
+h4.subheadsanslist a:hover,
 h4.subheadsansdeck a:hover {
     text-decoration: underline;
     color:rgba(0,91,91,1);
